@@ -1,0 +1,6 @@
+[functions]
+  external_node_modules = ["jsdom"]
+[[redirects]]
+  from = '/api/*'
+  to = '/.netlify/functions/:splat'
+  status = 200
